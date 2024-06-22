@@ -1,0 +1,11 @@
+STACK AND HEAP
+
+how memory works in js
+
+stack in used for primitive data type
+heap is used for non-primitive
+
+in stack memory we get copy of the value
+but in heap we directly get the reference
+
+understand the concept using diagrams
