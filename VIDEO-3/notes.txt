@@ -1,0 +1,2 @@
+1.we cannot change the value of constant variable ones it is declared. The value considered as constant.
+2.using of var keyword is strictly restricted because of scoping problem. LET is used instead of var.
