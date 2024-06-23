@@ -1,0 +1,3 @@
+Strings in js
+
+`` = string interpolation (placeholders)

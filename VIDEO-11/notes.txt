@@ -1,0 +1,12 @@
+numbers and maths
+
+important math property
+
+Math.random
+
+console.log(Math.round((Math.random()*10)+1)); //first we need to multiply any number with math.random to maintain range and add 1 beacuse 0 should not appear
+
+let min = 10
+let max = 20
+
+console.log(Math.floor((Math.random()*(max-min + 1)) + (min)));
