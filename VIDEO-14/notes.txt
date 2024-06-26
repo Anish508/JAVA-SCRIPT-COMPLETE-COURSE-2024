@@ -1,0 +1,3 @@
+Arrys functions
+
+important = concat and spread operator ,spread,from and of methods

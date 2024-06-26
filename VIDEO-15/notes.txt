@@ -1,0 +1,5 @@
+Objects in js
+
+singleton always create in constructor but not in literals 
+
+important = symbol type in Objects

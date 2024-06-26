@@ -1,0 +1,5 @@
+Arrays
+
+key-points:
+important = shallow copies and deep copies in arrays
+important = difference between splice and slice method

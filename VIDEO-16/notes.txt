@@ -1,0 +1,4 @@
+objects singleton and constructor
+
+const tinder = new Object()  //this is singleton object
+const newTinder = {}//this is non singleton object
