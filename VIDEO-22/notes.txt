@@ -1,0 +1,2 @@
+when we log this is broweser the global context is window thats why we can use all the window properties
+

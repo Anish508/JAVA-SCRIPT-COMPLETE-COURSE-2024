@@ -11,9 +11,9 @@ console.log(myArr.includes(0));
 console.log(myArr.indexOf(9));
  */
 const newArr = myArr.join()
-/* console.log(myArr);
+ console.log(myArr);
 console.log(newArr);
- */
+ 
 let arr1 = [1,34,9,7,1,9]
 console.log(arr1.slice(1,4));
 console.log("A:",arr1);

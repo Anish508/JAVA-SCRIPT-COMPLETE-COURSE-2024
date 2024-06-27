@@ -5,8 +5,7 @@ let unhealthy_foods = ['samosa', 'fizza','fast-foods','deep fried','burgers']
 console.log(healthy_foods[5][0]); */
 
 const newarray =  healthy_foods.concat(unhealthy_foods)
-/* console.log(newarray);
- */
+/* console.log(newarray);*/
 
 const foods = [...healthy_foods ,...unhealthy_foods]
 // console.log(foods);

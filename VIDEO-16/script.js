@@ -25,7 +25,7 @@ let obj2 = {3:"c", 4:"d"}
 let obj3 = {obj1 , obj2}
 // console.log(obj3); To ovecome this problem we use assign
 
-obj3=Object.assign({},obj1,obj2)//braces is used beacuse it is consider as the standard syntax and good practice it contains two parameter object and source,when we use {} at begining it is conisder as a target value
+obj3=Object.assign({},obj1,obj2)//braces is used beacuse it is consider as the standard syntax and good practice it contains two parameter target and source,when we use {} at begining it is conisder as a target value
 console.log(obj3);
 
 //another method

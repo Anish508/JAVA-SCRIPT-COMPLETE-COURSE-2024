@@ -1,0 +1,1 @@
+scope level and mini hoisting in js and closure
