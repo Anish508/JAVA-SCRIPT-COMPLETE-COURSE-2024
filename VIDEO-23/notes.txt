@@ -1,4 +1,4 @@
 IIFE(IMMEDEATELY INVOKED FUNCTIONAL EXPRESSION)
-it will IMMEDEATELY ecevute the functions
+it will IMMEDEATELY execute the functions
 It is used to overcome global scope pollution
 and used to execute the db connection quickly

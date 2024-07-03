@@ -1,0 +1,69 @@
+Get atribute and set attribute:
+
+document.getElementById('title').getAttribute('style')
+'text-align: center;'
+
+document.getElementById('title').getAttribute('id')
+'title'
+
+document.getElementById('title').setAttribute('class' , 'test')
+undefined
+
+document.getElementById('title').setAttribute('class' , 'test heading')
+undefined
+
+
+style in DOM:
+
+const title = document.getElementById('title')
+undefined
+title.style.backgroundColor = 'green'
+'green'
+
+title.style.padding = '15px'
+'15px'
+
+title.style.borderRadiusadius = '15px'
+'15px'
+
+text selecting in DOM:
+
+const title = document.getElementById('title')
+undefined
+
+#TextContent provide all the text which is hidden
+title.textContent
+'DOM Learning test text'
+
+#innerText provides only visible text
+title.innerText
+'DOM Learning'
+
+#innerHTML provides all the html elements of that text
+title.innerHTML
+'DOM Learning <span style="display: none;">test text</span>'
+
+
+querSelector and querSelectorAll :
+
+#when we use querSelectorAll we get node list it is just like a array but it is not an array so we need to follow some syntax while selecting individual elements in nodeList
+
+const liList = document.querySelectorAll('li')
+undefined
+
+liList[0].style.color = "pink"
+'pink'
+liList[1].style.color = "black"
+'black'
+
+#converting HTMLCollection to array
+
+const listItems = document.getElementsByClassName('item-list')
+undefined
+
+listItems
+
+HTMLCollection(4) [li.item-list, li.item-list, li.item-list, li.item-list]0: li.item-list1: li.item-list2: li.item-list3: li.item-listlength: 4[[Prototype]]: HTMLCollectionitem: ƒ item()length: (...)namedItem: ƒ namedItem()constructor: ƒ HTMLCollection()Symbol(Symbol.iterator): ƒ values()Symbol(Symbol.toStringTag): "HTMLCollection"get length: ƒ length()[[Prototype]]: Object
+
+Array.from(listItems)
+(4) [li.item-list, li.item-list, li.item-list, li.item-list]

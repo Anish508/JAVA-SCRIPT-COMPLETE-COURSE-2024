@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color-changer Project</title>
+    <style>
+        .boxes{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            padding: 20px;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body style="width: 100%; height: 100vh; display: flex; align-items: center; justify-content: center;background-color: black;">
+    <div class="boxes">
+        <div id="colors-box1" class='box' style="background-color: yellow;" onclick="colorChanger('yellow')"></div>
+        <div id="colors-box2" class='box'  style="background-color: blue;" onclick="colorChanger('blue')"></div>
+        <div id="colors-box3" class='box'  style="background-color: green;" onclick="colorChanger('green')"></div>
+        <div id="colors-box4" class='box'  style="background-color: orange;" onclick="colorChanger('orange')"></div>
+    </div>
+</body>
+<script>
+    function colorChanger(color){
+        switch (color) {
+            case 'yellow':
+                document.body.style.backgroundColor = 'yellow'
+                break;
+            case 'blue':
+                document.body.style.backgroundColor = 'blue'
+                break;
+
+            case 'green':
+                document.body.style.backgroundColor = 'green'
+                break; 
+                
+            case 'orange':
+                document.body.style.backgroundColor = 'orange'
+                break;    
+            default:
+                break;
+        }
+    }
+</script>
+</html>

@@ -1,0 +1,4 @@
+we cannot iterate map object throug forin loop but there are many ways of doing this.
+
+arrays = forof
+object = forin

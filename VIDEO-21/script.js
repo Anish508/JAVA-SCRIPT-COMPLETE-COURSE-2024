@@ -23,7 +23,7 @@ if (true) {
 
 /* ***************important***************** */
 
-addone(5) //it will create any error
+addone(5) //it will not create any error
 function addone(num){
 return num + 1
 }
