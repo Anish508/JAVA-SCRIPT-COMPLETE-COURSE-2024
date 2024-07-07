@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Events</title>
+  </head>
+  <body style="background-color: #414141">
+    <div class="images">
+      <ul>
+        <li>
+          <img style="width: 200px" src="img/css-logo.jpg" alt="" id="css" />
+        </li>
+        <li>
+          <img style="width: 200px" src="img/html.jpg" alt="" id="html" />
+        </li>
+        <li><img style="width: 200px" src="img/js.png" alt="" id="js" /></li>
+        <li>
+          <img style="width: 200px" src="img/react.jpg" alt="" id="react" />
+        </li>
+        <li style="color: white; cursor: pointer" id="google">
+          <a href="https://google.com">Google</a>
+        </li>
+      </ul>
+    </div>
+    <script>
+        document.querySelector('.images').addEventListener('click' , (e)=>{
+            console.log(e.target.tagName);
+            if(e.target.tagName === 'IMG')
+            {
+                let removeIt = e.target.parentNode
+            removeIt.remove()
+            //removeIt.parentNode.removeChild(removeIt)
+            }
+        }, false)
+    </script>
+  </body>
+</html>

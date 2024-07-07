@@ -1,0 +1,3 @@
+Prototype
+
+the default behaviour of js in prototypal behaviour

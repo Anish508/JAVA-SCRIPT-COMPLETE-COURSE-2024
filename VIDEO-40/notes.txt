@@ -1,0 +1,32 @@
+OOP(Object Oriented Programming) in js
+
+javascript and classes
+
+object is collection of properties and methods
+
+why use oop
+
+parts of oop
+object literal
+
+-constructor function
+-prototypes
+-classes
+-Instances(new , this)
+
+
+#4 pillars
+-Abstraction
+-Encapsulation
+-Inheritence
+-Polymorphism
+
+
+when we use constructor method
+1- it creates one empty object
+2-call constructor function using new keyword
+3.all the arguments are injected using this keyword.
+4.we get all the properties inside the function
+
+need to lean
+InstanceOf() method

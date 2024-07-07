@@ -1,0 +1,10 @@
+Event propogation
+true - eventCapturing
+false - eventBubbling
+
+Things to explore more in events
+
+ type,timestamp,defaultPrevent
+     target , toElement , srcElement , currentTargets
+     Position Related: clientX, clientY , , screenX, screenY.   
+     altKey ,ctrlKey ,shiftKey , keyCode 

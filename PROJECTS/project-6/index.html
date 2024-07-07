@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .insert {
+        width: 100%;
+        height: 100vh;
+        font-size: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body style="background-color: black; color: white; text-align: center">
+    <div class="project">
+      <div class="insert">
+        <div class="key">"Press the key and watch magic"</div>
+      </div>
+    </div>
+    <script>
+        const insert = document.querySelector('.insert')
+        window.addEventListener('keydown' , (e)=>{
+            insert.innerHTML = `
+            <div class ="color">
+                <table border="1">
+                    <tr>
+                       <th>Key</th>
+                       <th>Keycode</th>
+                       <th>Code</th>
+                    </tr>
+                    <tr>
+                       <th>${e.key === ' '?"space" :e.key}</th>
+                       <th>${e.keyCode}</th>
+                       <th>${e.code}</th>
+                    </tr>
+                </table>
+            </div>
+            `;
+        })
+    </script>
+  </body>
+</html>

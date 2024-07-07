@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Async in js</title>
+  </head>
+  <body style="color: white; background-color: black; text-align: center">
+    <h1>Java script nature</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+    <script>
+      /* const GuessNum = (str)=>{
+           
+        }
+        
+        clearInterval(intervalId) */
+     let h1 = document.querySelector('h1')
+      document.querySelector("#start").addEventListener("click", () => {
+        let intervalId = setInterval(() => {
+            h1.innerHTML = `hii ${Math.floor(Math.random() * 10 +1)}`
+        }, 1000);
+        clearVal(intervalId)
+      });
+      function clearVal(id){
+        document.querySelector("#stop").addEventListener("click", () => {
+            console.log("stopped");
+            clearInterval(id)
+        })
+      }
+    </script>
+  </body>
+</html>

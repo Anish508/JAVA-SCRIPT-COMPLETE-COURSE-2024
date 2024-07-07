@@ -1,0 +1,4 @@
+Basics foundation for advance topics 
+
+Synchronization and async nature of js
+

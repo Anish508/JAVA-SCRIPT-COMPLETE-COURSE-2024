@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+</head>
+<body style="background-color: #414141;">
+    <div class="images">
+        <ul>
+            <li><img style="width: 200px;" src="img/css-logo.jpg" alt="" id="css" ></li>
+            <li><img style="width: 200px;" src="img/html.jpg" alt="" id="html"></li>
+            <li><img style="width: 200px;" src="img/js.png" alt="" id="js"></li>
+            <li><img style="width: 200px;" src="img/react.jpg" alt="" id="react"></li>
+            <li style="color: white; cursor: pointer;" id="google"><a href="https://google.com">Google</a></li>
+        </ul>
+    </div>
+    <script>
+        /* let react = document.getElementById('react').onclick = ()=>{
+            alert("React clicked")
+        } */
+       //attchEvent()
+       //jquery = on
+
+     /* things to learn */
+        // type,timestamp,defaultPrevent
+        //target , toElement , srcElement , currentTargets
+        //Position Related: clientX, clientY , , screenX, screenY.   
+        //altKey ,ctrlKey ,shiftKey , keyCode 
+
+        let react = document.getElementById('react').addEventListener('click',(e)=>{
+           // alert("Recat clicked")
+            console.log(e);
+        },false) //true or false is known as event propogation it has two context 1.eventBubling , 2.eventCapaturing
+
+        let images = document.querySelector('.images').addEventListener('click',(e)=>{
+            console.log('clicked inside the ul');
+        },false)
+        
+        let html = document.getElementById('html').addEventListener('click',(e)=>{
+            e.stopPropagation()
+            console.log("clicked inside the html");
+        }, false)
+
+        let google = document.querySelector('#google').addEventListener('click' , (e)=>{
+            e.stopPropagation()
+           e.preventDefault()
+           console.log("google is clicked");
+        })
+
+        
+    </script>
+</body>
+</html>

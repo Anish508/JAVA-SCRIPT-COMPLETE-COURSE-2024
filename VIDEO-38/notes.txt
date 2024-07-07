@@ -1,0 +1,7 @@
+promises has three states 
+1-pending
+2-fulfilled
+3-rejected
+
+The Promise object represents the eventual completion (or failure) of an asynchronous operation and its resulting value.
+

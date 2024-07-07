@@ -70,9 +70,9 @@
         answer.innerHTML = `${bmi}`
         if (bmi < 18.6) {
             console.log("Under wight");
-            finalResult.innerHTML = "Under wight"
+           finalResult.appendChild(document.createTextNode("Under Weight"))
         }
-        else if (bmi >= 18.6 && bmi < 24.9) {
+        else if (bmi > 18.6 || bmi < 24.9) {
             console.log("Weight is normal"); 
              finalResult.innerHTML = "normal wight"
         }
