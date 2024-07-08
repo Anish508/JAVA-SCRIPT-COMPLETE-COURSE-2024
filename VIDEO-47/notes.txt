@@ -1,0 +1,3 @@
+Lexical scoping closure
+
+DRY Principle = Dont Repeat Yourself

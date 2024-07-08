@@ -1,1 +1,3 @@
 class constructor and static constructor
+
+static method deoes not allow to access the functions ore properties within it  
